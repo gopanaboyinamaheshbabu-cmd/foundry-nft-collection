@@ -21,7 +21,9 @@ jobs:
         run: forge --version
 
       - name: Install dependencies
-        run: forge install
+        run: |
+          git submodule update --init --recursive
+          forge install
 
       - name: Run Forge build
         run: forge build
