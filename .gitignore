@@ -20,5 +20,3 @@ docs/
 !.env.example
 
 broadcast/
-lib/
-lib/
