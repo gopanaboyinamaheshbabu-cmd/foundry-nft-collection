@@ -17,5 +17,5 @@ contract MintBasicNFT is Script {
         vm.startBroadcast();
         BasicNFT(contractAddress).mintNFT(TOKENURI);
         vm.stopBroadcast();
-    }
+    } 
 }
